@@ -1,0 +1,15 @@
+{
+  "name":"Fantasy Auto Battler",
+  "genre":"auto_battler",
+  "targets":{"targetProgress":40},
+  "rules":{"playerHp":100,"startGold":10,"income":5,"boardSize":8,"enemyPowerBase":14,"enemyGrowth":2.7},
+  "units":[
+    {"id":"guard","trait":"human","cost":1,"power":4},
+    {"id":"archer","trait":"ranger","cost":2,"power":7},
+    {"id":"frost_mage","trait":"mage","cost":3,"power":11},
+    {"id":"paladin","trait":"human","cost":4,"power":16},
+    {"id":"dragon","trait":"beast","cost":5,"power":23},
+    {"id":"assassin","trait":"ranger","cost":3,"power":12},
+    {"id":"golem","trait":"beast","cost":4,"power":17}
+  ]
+}

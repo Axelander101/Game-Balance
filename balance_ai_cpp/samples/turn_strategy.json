@@ -1,0 +1,14 @@
+{
+  "name":"Fantasy Turn Strategy",
+  "genre":"turn_strategy",
+  "targets":{"targetProgress":50},
+  "rules":{"startGold":100,"incomePerRound":22,"baseHp":100,"enemyPowerBase":18,"enemyPowerGrowth":2.2},
+  "units":[
+    {"id":"swordsman","role":"allround","cost":28,"power":10},
+    {"id":"archer","role":"ranged","cost":35,"power":12},
+    {"id":"knight","role":"tank","cost":55,"power":18},
+    {"id":"mage","role":"ranged","cost":65,"power":22},
+    {"id":"healer","role":"support","cost":48,"power":13},
+    {"id":"cavalry","role":"allround","cost":72,"power":25}
+  ]
+}

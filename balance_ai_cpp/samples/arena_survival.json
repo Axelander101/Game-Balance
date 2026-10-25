@@ -1,0 +1,20 @@
+{
+  "name":"Fantasy Arena Survival",
+  "genre":"arena_survival",
+  "targets":{"targetProgress":100},
+  "rules":{"playerHp":100,"spawnBase":7,"spawnGrowth":0.42,"xpPerLevel":16,"bossInterval":25},
+  "weapons":[
+    {"id":"sword","role":"allround","power":9,"cooldown":0.8},
+    {"id":"bow","role":"boss","power":15,"cooldown":1.25},
+    {"id":"fireball","role":"crowd","power":13,"cooldown":1.5},
+    {"id":"frost_orb","role":"control","power":8,"cooldown":1.1},
+    {"id":"lightning","role":"crowd","power":11,"cooldown":1.0},
+    {"id":"guardian","role":"control","power":7,"cooldown":0.9}
+  ],
+  "enemies":[
+    {"id":"grunt","role":"normal","hp":10,"damage":2,"xp":1,"share":1.0},
+    {"id":"runner","role":"fast","hp":7,"damage":2.3,"xp":1.1,"share":0.7},
+    {"id":"brute","role":"normal","hp":26,"damage":5,"xp":2,"share":0.45},
+    {"id":"boss","role":"boss","hp":120,"damage":10,"xp":8,"share":0.12}
+  ]
+}

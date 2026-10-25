@@ -1,0 +1,42 @@
+{
+  "name": "Tower Defense V5 Import Model",
+  "genre": "tower_defense",
+  "targets": {"standardProgress": 180, "standardSoftMax": 202},
+  "rules": {
+    "startMoney": 130,
+    "startLives": 30,
+    "bankCost": 250,
+    "bankIncome": 35,
+    "enemyCountBase": 7,
+    "enemyCountGrowth": 0.55,
+    "enemyCountQuadratic": 0.0035,
+    "enemyHpGrowth": 0.021,
+    "bossInterval": 20,
+    "maxTowerSlots": 46,
+    "pathPressure": 1.0
+  },
+  "towers": [
+    {"id":"normal","role":"allround","cost":80,"power":11,"upgradeCost":130},
+    {"id":"sniper","role":"boss","cost":190,"power":26,"upgradeCost":260},
+    {"id":"shotgun","role":"crowd","cost":145,"power":13,"upgradeCost":210},
+    {"id":"frost","role":"control","cost":170,"power":10,"upgradeCost":220},
+    {"id":"detector","role":"detection","cost":135,"power":8,"upgradeCost":180},
+    {"id":"bomber","role":"armor","cost":240,"power":22,"upgradeCost":330},
+    {"id":"moerser","role":"crowd","cost":280,"power":25,"upgradeCost":390},
+    {"id":"trapper","role":"crowd","cost":120,"power":10,"upgradeCost":170},
+    {"id":"village","role":"support","cost":300,"power":16,"upgradeCost":420}
+  ],
+  "enemies": [
+    {"id":"normal","role":"normal","hp":10,"speed":1.0,"reward":2.5,"share":5.0,"firstWave":1},
+    {"id":"fast","role":"fast","hp":7,"speed":1.55,"reward":2.7,"share":2.0,"firstWave":6},
+    {"id":"strong","role":"normal","hp":28,"speed":0.85,"reward":5.0,"share":1.5,"firstWave":12},
+    {"id":"boss","role":"boss","hp":160,"speed":0.65,"reward":20,"share":0.20,"firstWave":20},
+    {"id":"invisible","role":"hidden","hp":22,"speed":1.1,"reward":5.5,"share":0.75,"firstWave":28},
+    {"id":"armored","role":"armor","hp":55,"speed":0.8,"reward":8,"share":1.0,"firstWave":35},
+    {"id":"explosion_immune","role":"normal","hp":70,"speed":0.75,"reward":9,"share":0.45,"firstWave":48},
+    {"id":"tarnpanzer","role":"armor","hp":95,"speed":0.9,"reward":12,"share":0.45,"firstWave":62},
+    {"id":"titan","role":"boss","hp":340,"speed":0.55,"reward":30,"share":0.18,"firstWave":78},
+    {"id":"fast_boss","role":"boss","hp":260,"speed":1.25,"reward":28,"share":0.15,"firstWave":95},
+    {"id":"endboss","role":"boss","hp":1000,"speed":0.55,"reward":80,"share":0.05,"firstWave":180}
+  ]
+}

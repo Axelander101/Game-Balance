@@ -1,0 +1,20 @@
+{
+  "name":"Dungeon Deckbuilder",
+  "genre":"deckbuilder",
+  "targets":{"targetProgress":30},
+  "rules":{"playerHp":80,"startGold":15,"energy":3},
+  "cards":[
+    {"id":"strike","role":"attack","cost":1,"power":6,"price":12,"starter":5},
+    {"id":"guard","role":"block","cost":1,"power":6,"price":12,"starter":4},
+    {"id":"heavy_blade","role":"attack","cost":2,"power":15,"price":25},
+    {"id":"firestorm","role":"attack","cost":2,"power":12,"price":28},
+    {"id":"insight","role":"draw","cost":1,"power":5,"price":22},
+    {"id":"fortress","role":"defense","cost":2,"power":15,"price":30}
+  ],
+  "enemies":[
+    {"id":"orc","hp":35,"damage":7,"reward":10},
+    {"id":"shaman","hp":28,"damage":9,"reward":12},
+    {"id":"brute","hp":55,"damage":11,"reward":16},
+    {"id":"boss","hp":120,"damage":15,"reward":30}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name":"Fantasy Dungeon Roguelike",
+  "genre":"roguelike",
+  "targets":{"targetProgress":40},
+  "rules":{"playerHp":100,"startGold":20,"basePower":11,"baseDefense":1,"healCost":14,"healAmount":28},
+  "items":[
+    {"id":"iron_sword","role":"damage","power":6,"price":22},
+    {"id":"longbow","role":"damage","power":7,"price":28},
+    {"id":"plate","role":"defense","power":8,"price":30},
+    {"id":"fire_ring","role":"damage","power":9,"price":38},
+    {"id":"boots","role":"utility","power":7,"price":24},
+    {"id":"vampire_charm","role":"utility","power":10,"price":45}
+  ],
+  "enemies":[
+    {"id":"orc","hp":25,"damage":5,"reward":8},
+    {"id":"rogue","hp":20,"damage":7,"reward":9},
+    {"id":"brute","hp":48,"damage":10,"reward":14},
+    {"id":"boss","hp":110,"damage":14,"reward":28}
+  ]
+}
