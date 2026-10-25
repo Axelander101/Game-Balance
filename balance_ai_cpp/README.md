@@ -117,3 +117,12 @@ summary.txt
 6. Modul in `createGameModule()` registrieren.
 
 Der Evolutionsalgorithmus muss dafür nicht verändert werden.
+
+## Desktop UI / Balance Studio
+
+Zusätzlich zur Kommandozeile gibt es jetzt die optionale Qt-6-Oberfläche `game_balance_studio`.
+Sie startet denselben `game_balance_ai`-Backendprozess und zeigt Logs und Reports direkt an.
+
+Auf macOS siehe `SETUP_UI_MAC.md`.
+
+Wenn Qt 6 nicht installiert ist, baut CMake weiterhin CLI und Selftests. Es geht dadurch keine bestehende Funktion verloren.
